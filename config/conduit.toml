@@ -1,0 +1,8 @@
+[global]
+server_name = "boardOS.nomadsconnect.com"
+database_path = "/var/lib/matrix-conduit/"
+max_request_size = 20_000_000
+address = "0.0.0.0"
+port = 6167
+log = "info"
+allow_registration = true
