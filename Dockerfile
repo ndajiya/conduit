@@ -1,5 +1,5 @@
 # Stage 1: Build Conduit from source
-FROM rust:1.80 as builder
+FROM rust:1.80-bullseye as builder
 WORKDIR /usr/src/conduit
 
 # Install build dependencies
